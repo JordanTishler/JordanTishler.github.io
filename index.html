@@ -4,45 +4,6 @@
 <style>
 body {
 background-image: url("20200806_200234.jpg");}
-.dropbtn {
-  background-color: green;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: grey;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: grey}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: grey;
-}
  
 ul {
   list-style: none;
@@ -52,8 +13,9 @@ ul {
   marker: none;
 }
 
-li { list-style: none;
+li.menu { list-style: none;
   float: left;
+  
 }
 
 li a {
@@ -62,48 +24,48 @@ li a {
   background-color: green;
 }
 
+div.title {
+  width: 300px;
+  Background-color: hsla(5,20%, 20%, 0.2);
+  margin: auto;
+  margin-bottom: 30px;
+  border-style: solid; 
+  padding: 10px; 
+  border-radius: 70px;
+border: none} 
 
-div.entire {
-  width: 1000px; 
-  margin: auto; 
-  
-  padding: 10px;
-  border-style: none;
-  border-color: none;
-  border-radius: 100px;
-  background-color: none;}
-
-div.title {Background-color: grey; border-style: solid; padding: 0px; border-radius: 70px;} 
-
-div.work {Background-color: lightgrey; padding: 2px; float: left; border-style: solid; border-color: black;}
-
-div.school {Background-color: lightgrey; padding: 2px; float: right; border-style: solid; border-color: black;}
+div.work {
+  width: 1000px;
+  Background-color:lightgrey; 
+  margin: auto;
+  padding: 10px; 
+  border-style:solid; 
+  border-color:black;}
 
 h1.titles {
   text-align: center;
   text-transform: uppercase;
-  color: white;
-  text-shadow: 5px 7px 10px black;}
+  color: black ;
+  text-shadow: 5px 7px 10px red;
+ text-decoration-line: underline;}
+
+h2 { 
+  color: blue;}
+
+p.date{font-style: italic}
+ul.certs{
+  list-style-type: square;}
 </style>
+<html>
+<head>
 </head>
 <body>
- <div class="dropdown">
-  <li><a><button class="dropbtn">Home</button></a></li>
-  <div class="dropdown-content">
-  <a href="#">Intro</a>
-  <a href="#">Work Experience</a>
-  <a href="#">School Experience</a>
-  </div>
-</div>
- <div class="dropdown">
-  <li><a><button class="dropbtn">GIS Portfolio</button></a></li>
-  <div class="dropdown-content">
-  <a href="#">Intro</a>
-  <a href="#">Work Experience</a>
-  <a href="#">School Experience</a>
-  </div>
-</div>
-<div class= "entire">
+  <ul>
+<li class="menu"><a href ="#">Home</a></li>
+  <li class="menu"><a href="#">Intro</a></li>
+  <li class="menu"><a href="#">Work Experience</a></li>
+    <li class="menu"><a href="#">School Experience</a></li>
+</ul>
 
 <div class= "title">
 <h1 class= "titles"> Jordan Tishler </h1>
@@ -114,27 +76,26 @@ h1.titles {
 
 <h2> Work Experience </h2>
 <h3> Maintence Technician at Mayfield Golf Course </h3>
-<p>May 2021 - November 2021
+<p class="date">May 2021 - November 2021</p>
 upkeep of grass, trees and vehicles </p>
 
 <h3>GIS, LIDAR and Forest Modeling Leader for Capstone Project</h3>
-<p>University of New Brunsiwick September 2020 - April 2021
+<pp class="date">University of New Brunsiwick September 2020 - April 2021</pp>
 worked in a group of 10 to create an urban forest and forest management plan for the Department of National Defense, the Town of Oromocto, and Oromocto First Nations. 
 My main role used programs such as FORUS, Woodstock software, ArcGIS, Fusion, and all related Microsoft office programs.
 
-<h3>Maintence  Technician Limberlost Forest and Wildlife reserve May 2019 - April 2019</h3>
+<h>Maintence  Technician Limberlost Forest and Wildlife reserve </h3>
+  <p class="date">May 2019 - April 2019</p>
 <p>General trail maintenance Customer service
 Forest plotting at Haliburton Forest</p>
  
 
 <h3>Landscaping for Misha Dubbled</h3>
-<p>May 2017 - September 2017
-Pruning
-Tree planting Lawn mowing
-Student Placment - Maintence Technician</p>
+  <p class="date">May 2017 - September 2017</p>
+<p> Placment - Maintence Technician, Pruning,Tree planting and Lawn mowing,Student </p>
 
 <h3> Island Lake Conservation Area </h3>
-<p>May 2017 - September 2017
+<p class="date">May 2017 - September 2017</p>
  Weed whacking Pruning, Kiosk maintenance and Washing boats</p>
 
 <h3>Property Maintence </h3>
@@ -143,7 +104,37 @@ June 2014 - September 2016
 Built the structure of a garage General maintenance
 Identifying and removing invasive tree and plant species Chopping wood
 Driving lawn tractor and small excavator</p>
-</div>
-</div>
+
+<h2> School Experience </h2> 
+  <h3> Fleming college: GIS applications specilast </h3>
+  presently in my first semester
+   
+  <h3> University of New Brunswick: Bachelor of Science in Forestry </h3>
+<p> graduated in April 2021 </p>
+  
+  <h3> Fleming College: Forestry Technician </h3>
+<p> Graduated April 2019 </p> 
+  
+<h3> Humberview Secondary School</h3>
+  <p class= date> September 2013 - June 2017 </p>
+<p> Graduated with honours and an award from Environmental SHSM.          
+Completed Specialist High Skills Major: Environmental </p>
+   
+  <h2> Certicficates and Confrences </h2>
+<ul class = "certs">
+<li>Ontario Forest Conference, February 2019 </li>
+<li>Fleming College Eco-Health Conference, March 2019</li> 
+<li>Community woodlot conference at Fleming College, December 2019</li>
+<li>WHMIS and Introduction to Globally Harmonized System – (August 2018)</li>
+<li>Species Identification – Trees (October 2015)</li>
+<li>GPS Advanced Training – (October 2015)</li>
+  </ul>
+  <h2> Volunteer work </h2>
+<ul class = "certs">
+<li>Residence Council at Fleming college</li>
+<li>Volunteer work for Caledon O.P.P: summer of 2014</li>
+<li>Residence Orientation Crew, Fleming College Housing Services, September 2017</li>
+</ul>
+  </div>
 </body>
 </html>

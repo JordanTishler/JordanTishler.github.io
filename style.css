@@ -30,28 +30,39 @@ div.title {
   border-style: solid; 
   padding: 10px; 
   border-radius: 70px;
-border: none} 
+border: none
+} 
 
-div.work {
+div.all {
   width: 1000px;
   Background-color:lightgrey; 
   margin: auto;
   padding: 10px; 
   border-style:solid; 
-  border-color:black;}
+  border-color:black;
+}
 
 h1.titles {
   text-align: center;
   text-transform: uppercase;
   color: black ;
-  text-shadow: 5px 7px 10px red;
- text-decoration-line: underline;}
+  text-shadow: 5px 7px 10px green;
+ text-decoration-line: underline;
+   text-decoration-style: dotted;
+}
 
 h2 { 
-  color: blue;}
+  color: blue;
+}
 
 p.date{
-  font-style: italic}
+  font-style: italic
+}
 
 ul.certs{
-  list-style-type: square;}
+  list-style-type: square;
+}
+
+p#links{ 
+ font-weight: bold
+}

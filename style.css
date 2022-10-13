@@ -83,7 +83,7 @@ div.images:hover {
 }
 
 div.images img {
-  margin 15%;
+  margin 15px;
   width: auto;
   height: auto;
 }

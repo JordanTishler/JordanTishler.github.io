@@ -81,10 +81,12 @@ div.images {
 }
 
 div.images:hover {
-  margin-left: 15px;
-  margin-top: 50px;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 3%;
   border: 5px solid black;
   border-radius: 15px;
+  transition: all ease-in-out 250ms;
 }
 
 div.images img {

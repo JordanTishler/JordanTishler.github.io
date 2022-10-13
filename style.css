@@ -74,7 +74,7 @@ div.images {
   margin-top: 50px;
   border: 1px solid grey;
   width: 50%;
-  hieght: 50%;
+  height: auto;
 }
 
 div.images:hover {

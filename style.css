@@ -10,7 +10,7 @@ margin-bottom: 20px;
 width: 100%;
 }
 
-ul {
+ul.nav {
   list-style: none;
   marker: none;
 }

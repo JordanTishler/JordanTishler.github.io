@@ -10,7 +10,7 @@ margin-bottom: 20px;
 width: 100%;
 }
 
-ul.nav {
+ul.nav{
   list-style: none;
   marker: none;
 }
@@ -70,26 +70,27 @@ p#links{
 }
 
 div.images {
-  margin-left: 200px;
+  margin-left: 15px;
   margin-top: 50px;
   border: 1px solid grey;
   width: 180px;
 }
 
 div.images:hover {
-  margin-left: 100px;
-  margin-top: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
   border: 1px solid black;
 }
 
 div.images img {
   margin 15px;
-  width: auto;
-  height: auto;
+  width: 450px;
+  height: 300px;
 }
 
 div.desc {
-  margin: auto;
-  padding: 15px;
+  padding: 70px;
   text-align: center;
+  width: 450px;
+  height: 300px;
 }

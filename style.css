@@ -55,8 +55,12 @@ h1.titles {
   text-transform: uppercase;
   color: black ;
   text-shadow: 5px 7px 10px green;
- text-decoration-line: underline;
-   text-decoration-style: dotted;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  Font-size: 30px;
+  margin-block-end: 20px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 /* The styling for any secondary headings */
@@ -99,7 +103,7 @@ div.images:hover {
   margin-left: 10%;
   margin-top: 1%;
   margin-bottom: 3%;
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 15px;
   transition: all ease-in-out 250ms;
 }

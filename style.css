@@ -70,22 +70,23 @@ p#links{
 }
 
 div.images {
-  margin-left: 100px;
-  margin-top: 15px;
-  border: 1px solid #ccc;
-  width: 180px;}
+  margin-left: 200px;
+  margin-top: 50px;
+  border: 1px solid grey;
+  width: 180px;
+  float: left
+}
 
 div.images:hover {
   margin-left: 100px;
   margin-top: 15px;
-  border: 1px solid #777;
+  border: 1px solid black;
 }
 
 div.images img {
   margin 15%;
   width: auto;
   height: auto;
-  float: left;
 }
 
 div.desc {

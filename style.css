@@ -1,7 +1,9 @@
+/* My background image */
 body {
 background-image: url("Images/20200806_200234.jpg");
 }
 
+/* The element my navigation links are inside */
 div.navbar{ 
 background-color: black;
 padding-top:10px;
@@ -9,21 +11,23 @@ padding-bottom: 10px;
 margin-bottom: 20px;
 width: 100%;
 }
-
+/* This was to delete my defaults for my navbar */
 ul.nav{
   list-style: none;
   marker: none;
 }
-
+/* This was to make my navigation bar horizontal */
 li.menu {
  display: inline
 }
+
+/* This was to make my navigation links white and have distacne from each link */
 li a {
   padding: 15px;
   color: white
 }
 
-
+/* This block element surronds my main title */
 div.title {
   width: 300px;
   Background-color: hsla(5,20%, 20%, 0.2);
@@ -35,6 +39,7 @@ div.title {
 border: none
 } 
 
+/* This block element surronds all of my contend under my title on my first page */
 div.all {
   width: 75%;
   Background-color:lightgrey; 
@@ -44,6 +49,7 @@ div.all {
   border-color:black;
 }
 
+/* The styling used on my main title */
 h1.titles {
   text-align: center;
   text-transform: uppercase;
@@ -53,26 +59,34 @@ h1.titles {
    text-decoration-style: dotted;
 }
 
+/* The styling for any secondary headings */
 h2 { 
   color: blue;
 }
 
+/* The styling for all my dates on my first page */
 p.date{
-  font-style: italic
+  font-style: italic;
+  color: green;
+  padding-left; 15;
+  
 }
 
+/* The styling any of my lists on my firs page ex.certifications,skills etc. */
 ul.certs{
   list-style-type: square;
 }
 
+/* The styling for my link refrence */
 p#links{ 
  font-weight: bold
 }
 
+/* The styling for the box around my images in page 2 */
 div.images {
   margin-left: 10%;
   margin-top: 1%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   border: 1px solid grey;
   background-color: lightgrey;
   width: 500px;
@@ -80,6 +94,7 @@ div.images {
   float: left;
 }
 
+/* The styling for my hover effect for each image in page 2*/
 div.images:hover {
   margin-left: 10%;
   margin-top: 1%;
@@ -89,12 +104,14 @@ div.images:hover {
   transition: all ease-in-out 250ms;
 }
 
+/* The styling for my images in page 2*/
 div.images img {
   margin: 15px;
   width: 90%;
   height: auto;
 }
 
+/* The styling for my description of each image in page 2*/
 div.desc {
   padding: 30px;
   text-align: center; 

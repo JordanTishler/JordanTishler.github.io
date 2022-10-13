@@ -15,7 +15,7 @@ ul.nav {
   marker: none;
 }
 
-li {
+li.menu {
  display: inline
 }
 li a {

@@ -70,11 +70,14 @@ p#links{
 }
 
 div.images {
-  margin-left: 15px;
-  margin-top: 50px;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 3%;
   border: 1px solid grey;
-  width: 50%;
+  background-color: lightgrey;
+  width: 500px;
   height: auto;
+  float: left;
 }
 
 div.images:hover {
@@ -91,6 +94,6 @@ div.images img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 30px;
   text-align: center; 
 }

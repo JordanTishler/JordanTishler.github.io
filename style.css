@@ -68,7 +68,7 @@ h2 {
   color: blue;
 }
 
-h2.nextpage {
+h2#nextpage {
   float: left;
 }
 

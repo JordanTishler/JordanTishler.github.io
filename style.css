@@ -89,8 +89,13 @@ ul.certs{
 }
 
 /* The styling for my link refrence */
-p.links{ 
+p#links{ 
  font-weight: bold
+}
+
+p#linkref{ 
+ font-weight: bold;
+ padding-top: 2.6%;
 }
 
 /* The styling for the box around my images in page 2 */

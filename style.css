@@ -98,14 +98,15 @@ div.images {
   float: left;
 }
 
+
 /* The styling for my hover effect for each image in page 2*/
 div.images:hover {
   margin-left: 10%;
   margin-top: 1%;
-  margin-bottom: 3%;
-  border: 2px solid black;
+  margin-bottom: 2%;
+  border: 1px solid black;
   border-radius: 15px;
-  transition: all ease-in-out 250ms;
+  transition: all ease-in-out 400ms;
 }
 
 /* The styling for my images in page 2*/

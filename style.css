@@ -1,8 +1,8 @@
 /* My background image */
 body {
-background-image: url("Images/20200806_200234.jpg");
+background-image: url("Images/Tree.png");
+background-position: center;
 }
-
 /* The element my navigation links are inside */
 div.navbar{ 
 background-color: black;
@@ -13,123 +13,149 @@ width: 100%;
 }
 /* This was to delete my defaults for my navbar */
 ul.nav{
-  list-style: none;
-  marker: none;
+list-style: none;
+marker: none;
 }
 /* This was to make my navigation bar horizontal */
 li.menu {
- display: inline
+display: inline;
 }
 
 /* This was to make my navigation links white and have distacne from each link */
 li a {
-  padding: 15px;
-  color: white
+padding: 1%;
+color: white;
+text-decoration-line: none;
+font-size: 15px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* This block element surronds my main title */
 div.title {
-  width: 300px;
-  Background-color: hsla(5,20%, 20%, 0.2);
-  margin: auto;
-  margin-bottom: 30px;
-  border-style: solid; 
-  padding: 10px; 
-  border-radius: 70px;
+width: 300px;
+Background-color: hsla(5,20%, 20%, 0.2);
+margin: auto;
+margin-bottom: 30px;
+border-style: solid; 
+padding: 10px; 
+border-radius: 70px;
 border: none
 } 
 
-/* This block element surronds all of my contend under my title on my first page */
+/* This block element surronds all of my main content under my title on my first page */
 div.all {
-  width: 75%;
-  Background-color:lightgrey; 
-  margin: auto;
-  padding: 15px; 
-  border-style:solid; 
-  border-color:black;
+width: 75%;
+Background-color:lightgrey; 
+margin: auto;
+padding: 15px; 
+border-style:solid; 
+border-color:black;
 }
 
 /* The styling used on my main title */
 h1.titles {
-  text-align: center;
-  text-transform: uppercase;
-  color: black ;
-  text-shadow: 5px 7px 10px green;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  Font-size: 30px;
-  margin-block-end: 20px;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+text-align: center;
+text-transform: uppercase;
+color: black ;
+text-shadow: 5px 7px 10px green;
+text-decoration-line: underline;
+text-decoration-style: dotted;
+Font-size: 30px;
+margin-block-end: 20px;
+margin-inline-start: auto;
+margin-inline-end: auto;
 }
 
-/* The styling for any secondary headings */
+/* The styling for any of my secondary headings */
 h2 { 
-  color: blue;
+color: blue;
+}
+/* The styling for a fix I needed*/
+h3#fix { 
+clear :both;
+}
+/* The styling for the link to my next page*/
+#nextpagelink {
+text-decoration-line: none;
+font-family:cursive;
+color: cadetblue;
+}
+/* The positioning for liik to my next page*/
+h2#nextpage {
+    float: left;
+    }
+/* The styling for all my external links*/
+.external {
+text-decoration-line: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkred
 }
 
-h3 { 
-  clear :both;
+/* The styling for all my paragraphs*/
+p {  
+margin-block-end: 15px;
+margin-inline-start: auto;
+margin-inline-end: auto;
 }
-h2#nextpage {
-  float: left;
-}
+
 
 /* The styling for all my dates on my first page */
 p.date{
-  font-style: italic;
-  color: green;
-  padding-left; 15;
-  
+font-style: italic;
+color: green;
+padding-left: 15;
+
 }
 
-/* The styling any of my lists on my firs page ex.certifications,skills etc. */
+/* The styling for the lists on my first page ex.certifications,skills etc. */
 ul.certs{
-  list-style-type: square;
+list-style-type: square;
 }
 
-/* The styling for my link refrence */
+/* The styling for my next page link refrence */
 p#links{ 
- font-weight: bold
+font-weight: bold;
 }
-
+/* The styling for my school link refrence*/
 p#linkref{ 
- font-weight: bold;
- padding-top: 2.6%;
+font-weight: bold;
+padding-top: 32px;
 }
 
-/* The styling for the box around my images in page 2 */
+/* The styling for the box around my images in page 2*/
 div.images {
-  margin-left: 10%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  border: 5px solid grey;
-  background-color: lightgrey;
-  width: 500px;
-  height: auto;
-  float: left;
+margin-left: 10%;
+margin-top: 1%;
+margin-bottom: 2%;
+border: 5px solid grey;
+background-color: lightgrey;
+width: 500px;
+height: auto;
+float: left;
 }
 
 
 /* The styling for my hover effect for each image in page 2*/
 div.images:hover {
-  margin-left: 10%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  border: 5px solid black;
-  border-radius: 15px;
-  transition: all ease-in-out 400ms;
+margin-left: 10%;
+margin-top: 1%;
+margin-bottom: 2%;
+border: 5px solid black;
+border-radius: 15px;
+transition: all ease-in-out 400ms;
 }
 
 /* The styling for my images in page 2*/
 div.images img {
-  margin: 15px;
-  width: 90%;
-  height: auto;
+margin: 15px;
+width: 90%;
+height: auto;
 }
 
 /* The styling for my description of each image in page 2*/
 div.desc {
-  padding: 30px;
-  text-align: center; 
+padding: 30px;
+text-align: center; 
 }
+    

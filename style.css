@@ -92,7 +92,7 @@ color: olivedrab;
     transition: all ease-in-out 50ms;
 }
 /* The positioning for liik to my next page*/
-h2#nextpage {
+h2.nextpage {
     float: left;
     }
 /* The styling for all my external links*/

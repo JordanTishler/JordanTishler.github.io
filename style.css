@@ -30,6 +30,11 @@ font-size: 15px;
 font-weight: bold;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*Hover affect for nav bar*/
+li a:hover{
+    color: aqua;
+    transition: all ease-in-out 200ms;
+    }
 
 /* This block element surronds my main title */
 div.title {

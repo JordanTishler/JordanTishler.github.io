@@ -1,7 +1,7 @@
 /* My background image */
 body {
 background-image: url("Images/Tree.png");
-background-position: center;
+background-position-x: 50%;
 }
 /* The element my navigation links are inside */
 div.navbar{ 

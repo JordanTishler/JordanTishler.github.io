@@ -132,7 +132,7 @@ list-style-type: square;
 /* The styling for my next page link refrence */
 p#linkref{ 
 font-weight: bold;
-padding-left: 2px;
+padding-left: 10px;
 padding-top: 28px;
 }
 

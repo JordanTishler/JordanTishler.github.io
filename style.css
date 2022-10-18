@@ -84,6 +84,7 @@ clear :both;
 #nextpagelink {
 text-decoration-line: none;
 font-family:Bahnschrift SemiBold;
+padding-right: 5px;
 color: olivedrab;
 }
 /* The hover effect for the link to my next page*/
@@ -132,8 +133,7 @@ list-style-type: square;
 /* The styling for my next page link refrence */
 p#linkref{ 
 font-weight: bold;
-padding-left: 10px;
-padding-top: 28px;
+padding-top: 25px;
 }
 
 /* The styling for my school link refrence*/

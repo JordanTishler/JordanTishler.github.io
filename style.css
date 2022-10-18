@@ -130,14 +130,16 @@ list-style-type: square;
 }
 
 /* The styling for my next page link refrence */
+p#linkref{ 
+font-weight: bold;
+padding-top: 30px;
+}
+
+/* The styling for my school link refrence*/
 p#links{ 
 font-weight: bold;
 }
-/* The styling for my school link refrence*/
-p#linkref{ 
-font-weight: bold;
-padding-top: 32px;
-}
+
 
 /* The styling for the box around my images in page 2*/
 div.images {

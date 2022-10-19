@@ -83,7 +83,8 @@ clear :both;
 /* The styling for the link to my next page*/
 #nextpagelink {
 text-decoration-line: none;
-font-family:Bahnschrift SemiBold;
+font-family:Bahnschrift, SemiBold;
+;
 padding-right: 5px;
 color: olivedrab;
 }

@@ -1,117 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class=".w3-bar .w3-button">
 <title>Jordan Tishler</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/stylesheet.css">
 </head>
 <body>
-<!--start of responsiveness-->
-<!-- Start of nav bar Sources https://codepen.io/kevinpowell/pen/GrLKNo and https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float-->
-<div class="navbar">
-  <ul class="nav">
-<li class="menu"><a href ="index.html">Home</a></li>
-  <li class="menu"><a href="#intro">Intro</a></li>
-  <li class="menu"><a href="#work">Work Experience</a></li>
-    <li class="menu"><a href="#school">School Experience</a></li>
-</ul>
-</div>
-<!--end of nav bar-->
-<!--div for my title-->
-<div class="title">
-<h1 class="titles"> Jordan Tishler </h1>
-</div>
-<!--div for all my content below my title-->
-<div class="all">
-<h2 id="intro"> Intro</h2>
-<p>I am a young aspiring developer who specilizes in GIS</p>
-
-<h2 class="nextpage" ID="work"> <a ID="nextpagelink" href="GIS.html"> Work Experience</a></h2> 
-<p ID = "linkref">Click here to see my GIS protfolio</p>
+<!-- Navbar (sit on top) -->
+<div class="nav-top">
+    <div class="nav-bar nav-white" >
+      <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
+      <!-- Right-sided navbar links -->
+      <div class="right w3-hide-small">
+        <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i> ABOUT</a>
+        <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
   
-<h3 ID="fix"> Maintence Technician at Hockly vally golf course</h3>
-<p class="date">April 2022 - September 2022</p>
-<p>upkeep of grass, trees and vehicles.</p>
-
-  <h3> Snow maker and skilift worker at Hockly vally ski resort</h3>
-<p class="date">December 2021 - April 2022</p>
-<p>Made snow with snow guns and moved then with large machinery, looked afer ski lift customers.</p>
-  
-  <h3>Maintence Technician at Mayfield Golf Course.</h3>
-<p class="date">May 2021 - November 2021</p>
-<p>upkeep of grass, trees and vehicles. </p>
-
-  
-<h3>GIS, LIDAR and Forest Modeling Leader for Capstone Project</h3>
-<p class="date">University of New Brunsiwick September 2020 - April 2021</p>
-<p>worked in a group of 10 to create an urban forest and forest management plan for the Department of National Defense, the Town of Oromocto, and Oromocto First Nations. 
-My main role used programs such as FORUS, Woodstock software, ArcGIS, Fusion, and all related Microsoft office programs. </p>
-
-<h3>Maintence  Technician Limberlost Forest and Wildlife reserve </h3>
-  <p class="date">May 2019 - April 2019</p>
-<p>General trail maintenance, Customer service and
-Forest plotting at Haliburton Forest.</p>
- 
-
-<h3>Landscaping for Misha Dubbled</h3>
-  <p class="date">May 2017 - September 2017</p>
-<p>Placment - Maintence Technician, Pruning,Tree planting and Lawn mowing,Student.</p>
-
-<h3> Island Lake Conservation Area </h3>
-<p class="date">May 2017 - September 2017</p>
-<p> Weed whacking Pruning, Kiosk maintenance and Washing boats.</p>
-
-<h3>Napa Autopro</h3>
-<p class="date">June 2014 - September 2017</p>
-<p>Cleaning, changing tires and oil changes.</p>
-
-<h3>Property Maintence</h3>
-<p class="date"> June 2014 - September 2016</p>
-<p>Built the structure of a garage. General maintenance. Identifying and removing invasive tree and plant species. Chopping wood,
-driving lawn tractor and small excavator.</p>
-
-<!--start of external links-->
-<h2 Id = "school"> School Experience </h2>
-<p ID = "links"> Click any of the red titles to see the program </p>
-  <h3> <a class="external" href= "https://flemingcollege.ca/programs/geographic-information-systems-applications-specialist"> Fleming College: GIS Applications Specilast</a></h3>
-  <p class="date"> Estimatied Timeline: September 2022 - June 2023 </p>
-  <p>Presently in my first semester.</p>
-   
-  <h3><a class="external" href= "https://www.unb.ca/fredericton/forestry/undergraduate-programs/bsc-forestry/index.html"> University of New Brunswick: Bachelor of Science in Forestry </a></h3>
-<p class ="date"> September 2019 - April 2021</p>
-  
-  <h3><a  class="external" href= "https://flemingcollege.ca/programs/forestry-technician"> Fleming College: Forestry Technician </a></h3>
-<p class ="date"> September 2017 - April 2019</p> 
-  
-<h3><a class = "external" href= "https://www2.peelschools.org/schools/humberview/Pages/default.aspx"> Humberview Secondary School</a></h3>
-  <p class= date> September 2013 - June 2017</p>
-<p> Graduated with honours and an award from Environmental SHSM.          
-Completed Specialist High Skills Major: Environmental</p>
-<!--End of external links-->
-  <h2>Skills</h2>
-<!--my lists-->
-<ul class = "certs">
-<li>Proficient in GIS and ArcMap software.</li>
-<li>Comfortable with tree identification and forest measurement techniques.</li>
-<li>Worked in a team to plan a woodlot conference for local high school students teaching basics of various forestry skills.</li>
-<li>I was the leader of the GIS and forest modeling section of my 4020 group within the University of New Brunswick </li>
-<li>4020 capstone project: worked in a group of 10 to create an urban forest management plan for the Department of National Defense, the Town of Oromocto, and Oromocto First Nations. Main role was as the leader of the GIS, lidar and forest modeling sections using programs like FORUS, Woodstock software ArcGIS, Fusion, and all related Microsoft office programs.</li>
-  </ul>
-  <h2>Certicficates and Confrences</h2>
-<ul class = "certs">
-<li>Ontario Forest Conference, February 2019</li>
-<li>Fleming College Eco-Health Conference, March 2019</li> 
-<li>Community woodlot conference at Fleming College, December 2019</li>
-<li>WHMIS and Introduction to Globally Harmonized System – (August 2018)</li>
-<li>Species Identification – Trees (October 2015)</li>
-<li>GPS Advanced Training – (October 2015)</li>
-  </ul>
-  <h2>Volunteer Work</h2>
-<ul class = "certs">
-<li>Residence Council at Fleming college</li>
-<li>Volunteer work for Caledon O.P.P: summer of 2014</li>
-<li>Residence Orientation Crew, Fleming College Housing Services, September 2017</li>
-</ul>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
   </div>
+
+<div class="title display">
+<h1>Hi Im Jordan Tishler!</h1>
+<h2> An aspiring GIS Analyst</h2>
+</div>
+<a href="about.html">
+<div class = "learn">
+<button class="learns"> learn more about me </button>
+</a>
+</div>
 </body>
-<!--end of responsiveness-->
-</html>

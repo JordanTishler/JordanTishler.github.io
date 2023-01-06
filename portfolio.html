@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class=".w3-bar .w3-button">
+<title>Jordan Tishler</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/stylesheet.css">
+<script  src="JS/java.js"></script>
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="nav-top">
+    <div class="nav-bar nav-white" >
+      <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
+      <!-- Right-sided navbar links -->
+      <div class="right w3-hide-small">
+        <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i>ABOUT</a>
+        <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> PORTFOLIO</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <div class="">
+    <h1>My best work in each year of school</h1>
+  </div>
+  <div class="container max padd">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <a href= "Images/grade12medium.jpg"><img src="Images/grade12medium.jpg" alt="Health" class = "width100"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <a href= "Images/map4medium.jpg"><img src="Images/map4medium.jpg" alt="Camp Argonaut" class = "width100"></a>
+    </div>
+  
+    <div class="mySlides width">
+      <div class="numbertext">3 / 6</div>
+      <a href= "Images/Geologymedium.jpg"><img src="Images/Geologymedium.jpg" alt="Deer Park" class = "width100"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <a href= "Images/Odelmedium.jpg"><img src="Images/Odelmedium.jpg" alt="Delineate" class = "width100"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <a href= "Images/dnd.jpg"><img src="Images/DNDmedium.jpg" alt="Big Property" class = "width100"></a>
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <a href= "Images/EatYourWayThroughCanadamedium.jpg"><img src="Images/EatYourWayThroughCanadamedium.jpg" alt="Health Big" class = "width100"></a>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor width100" src="Images/grade12small.jpg" onclick="currentSlide(1)" alt="Tree Health Assesment of North Deparment of National Defence">
+      </div>
+      <div class="column">
+        <img class="demo cursor width100" src="Images/map4small.jpg" onclick="currentSlide(2)" alt="Tree Health Assesment of the Camp Argonaut">
+      </div>
+      <div class="column">
+        <img class="demo cursor width100" src="Images/Geologysmall.jpg" onclick="currentSlide(3)" alt="Deer Park Tree Health Assesment">
+      </div>
+      <div class="column">
+        <img class="demo cursor width100" src="Images/Odelsmall.jpg" onclick="currentSlide(4)" alt="Stand Delineation Across Oromocto">
+      </div>
+      <div class="column">
+        <img class="demo cursor width100" src="Images/DNDsmall.jpg" onclick="currentSlide(5)" alt="Property Outlines of Oromocto">
+      </div>
+      <div class="column">
+        <img class="demo cursor width100" src="Images/EatYourWayThroughCanadasmall.jpg" onclick="currentSlide(6)" alt="Tree Health Assesment of the Deparment of National Defense">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+window.onload = showSlides(1)
+// Modal Image Gallery
+function onClick(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+var captionText = document.getElementById("caption");
+captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+if (mySidebar.style.display === 'block') {
+  mySidebar.style.display = 'none';
+} else {
+  mySidebar.style.display = 'block';
+}
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+}
+    </script>
+</body>
+</html> 

@@ -450,3 +450,17 @@ margin-top: 50px;
   outline: 0;
   width: 600px;
 }
+.nav-bar-block .nav-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+
+.nav-bar-block.nav-center .nav-bar-item {
+  text-align: center;
+}

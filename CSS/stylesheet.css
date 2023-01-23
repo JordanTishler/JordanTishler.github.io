@@ -137,7 +137,7 @@ transition-duration: 100ms;
 
 h1 {color: rgb(28, 27, 68)}
 
-body{background-image: url("/Images/novascotia.jpg");
+body{background-image: url("../Images/novascotia.jpg");
 background-position: center;
 background-size: 2200px;
 background-repeat: no-repeat;
@@ -207,6 +207,7 @@ background-repeat: no-repeat;
 .caption-container {
   text-align: center;
   background-color: #222;
+  margin-top: -6px;
   padding: 2px 16px;
   color: white;
 }

@@ -29,7 +29,7 @@
   
 }
 .nav-bar .nav-bar-item {
-  padding: 8px 16px;
+  padding: 9px 16px;
   float: left;
   width: auto;
   border: none;
@@ -38,6 +38,7 @@
   color: white;
   text-decoration-line: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 55px;
 }
 
 .nav-bar .nav-button {
@@ -56,7 +57,7 @@
 }
 
 div.title {float: left;
-background-color: rgba(255, 255, 255, 0.26);
+background-color: rgba(255, 255, 255, 0.479);
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 margin-top: 20%;
@@ -73,7 +74,7 @@ div.titlep {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 100px;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -84,8 +85,8 @@ div.titlep {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
     border-radius: 10px;
-    max-width: 900px;
-    max-height: 1000px;
+    max-width: 550px;
+    height: 770px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -137,9 +138,8 @@ transition-duration: 100ms;
 
 h1 {color: rgb(28, 27, 68)}
 
-body{background-image: url("/Images/novascotia.jpg");
-background-position: center;
-background-size: 2200px;
+.background {background-image: url("../Images/frostcampus.jpg");
+background-position: cover;
 background-repeat: no-repeat;
 }
 
@@ -197,6 +197,7 @@ background-repeat: no-repeat;
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.349);
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -221,7 +222,19 @@ background-repeat: no-repeat;
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 20.00%;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+}
+.column2 {
+  float: left;
+  width: 50%;
+}
+.column3 {
+  float: left;
+  width: 25%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -243,17 +256,21 @@ background-repeat: no-repeat;
 margin-top: 50px;
 }
 
+.max1 {
+  max-width: 500px; max-height: 469px;
+}
+
 .width100 {
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1680px) {
   .nav-auto {
     max-width: 95%;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1680px) {
   .nav-modal-content {
     margin: 0 10px;
     width: auto !important;
@@ -303,7 +320,7 @@ margin-top: 50px;
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 1680px) {
   .nav-modal-content {
     width: 900px;
   }
@@ -317,7 +334,7 @@ margin-top: 50px;
   }
 }
 
-@media (max-width: 1800px) and (min-width: 1700px) {
+@media (max-width: 1800px) and (min-width: 1750px) {
   .nav-hide-medium {
     display: none !important;
   }

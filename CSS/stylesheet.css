@@ -207,6 +207,7 @@ background-repeat: no-repeat;
 .caption-container {
   text-align: center;
   background-color: #222;
+  margin-top: -6px;
   padding: 2px 16px;
   color: white;
 }

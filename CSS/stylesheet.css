@@ -29,7 +29,7 @@
   
 }
 .nav-bar .nav-bar-item {
-  padding: 9px 16px;
+  padding: 8px 16px;
   float: left;
   width: auto;
   border: none;
@@ -38,7 +38,6 @@
   color: white;
   text-decoration-line: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 55px;
 }
 
 .nav-bar .nav-button {
@@ -57,7 +56,7 @@
 }
 
 div.title {float: left;
-background-color: rgba(255, 255, 255, 0.76);
+background-color: rgba(255, 255, 255, 0.26);
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
 margin-top: 20%;
@@ -65,20 +64,18 @@ margin-left: 10px;
 border-radius: 10px;
 padding-left: 10px;
 padding-right: 10px;
-max-width: 1000px;
 
 }
 
 div.titlep {
-  background-color: rgba(255, 255, 255, 0.74);
+  background-color: rgba(255, 255, 255, 0.26);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 100px;
-  max-width: 800px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px 
   }
 
   div.titlea {
@@ -87,8 +84,8 @@ div.titlep {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
     border-radius: 10px;
-    max-width: 550px;
-    height: 770px;
+    max-width: 900px;
+    max-height: 1000px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -109,8 +106,12 @@ div.titlep {
   margin-top: -10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.profile{
+  float:inherit;
+  padding-right: -20px;
+}
 .learn {
-margin-top: 30px;
+margin-top: 2%;
 margin-left: 10px;
 padding-left: 10px;
 padding-right: 10px;
@@ -120,30 +121,27 @@ clear: both;}
 .learns{
   font-size: 15px;
   border-radius: 5px;
-  padding: 8px;
+  padding: 5px;
   background-color: black;
   color: white;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration-line: none;
 }
 
 .learns:hover { 
 background-color: white;
 color: black;
 transition: ease-in;
-transition-duration: 150ms;
+transition-duration: 100ms;
 }
 
 h1 {color: rgb(28, 27, 68)}
 
-
-.background {background-image: url("../Images/novascotia.jpg");
-  background-position: center;
-  background-size: 2000px;
- background-repeat: no-repeat;
- }
- 
+body{background-image: url("../Images/novascotia.jpg");
+background-position: center;
+background-size: 2200px;
+background-repeat: no-repeat;
+}
 
 /* start of slideshow css source:https://www.navschools.com/howto/howto_js_slideshow_gallery.asp*/
 * {
@@ -199,7 +197,6 @@ h1 {color: rgb(28, 27, 68)}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  background-color: rgba(0, 0, 0, 0.349);
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -210,7 +207,6 @@ h1 {color: rgb(28, 27, 68)}
 .caption-container {
   text-align: center;
   background-color: #222;
-  margin-top: -6px;
   padding: 2px 16px;
   color: white;
 }
@@ -224,19 +220,7 @@ h1 {color: rgb(28, 27, 68)}
 /* Six columns side by side */
 .column {
   float: left;
-  width: 20.00%;
-}
-.column1 {
-  float: left;
-  width: 33.33%;
-}
-.column2 {
-  float: left;
-  width: 50%;
-}
-.column3 {
-  float: left;
-  width: 25%;
+  width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -258,24 +242,17 @@ h1 {color: rgb(28, 27, 68)}
 margin-top: 50px;
 }
 
-.max1 {
-  max-width: 500px; max-height: 469px;
-}
-
-.max2 {
-  max-width: 806px; max-height: 500px;
-}
 .width100 {
   width: 100%;
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 1200px) {
   .nav-auto {
     max-width: 95%;
   }
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 550px) {
   .nav-modal-content {
     margin: 0 10px;
     width: auto !important;
@@ -325,7 +302,7 @@ margin-top: 50px;
   }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 550px) {
   .nav-modal-content {
     width: 900px;
   }
@@ -339,7 +316,7 @@ margin-top: 50px;
   }
 }
 
-@media (max-width: 1800px) and (min-width: 1750px) {
+@media (max-width: 1800px) and (min-width: 1700px) {
   .nav-hide-medium {
     display: none !important;
   }

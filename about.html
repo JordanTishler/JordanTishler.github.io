@@ -38,8 +38,52 @@
   <h2 class="jt">Jordan Tishler</h2>
   
   <p class="sum">I am currently a student at Fleming College enrolled in the Geographic Information Systems – Applications Specialist course. I have a bachelor's in Forestry and I am passionate about GIS because love the process of creating analyzing and mapping data. I enjoy creating and coding websites and programs both back-end and front-end development. I am always open to learning and experiencing new things.</p>
+  <button id ="GIS" class="services-button"> GIS Related Experice </button>
+  <button id ="other" class="services-button"> Other Work Experice </button>
   <a class= "profile" href="Images/Gradbig.jpg"><img src="Images/Gradsmall.jpg" alt="graduation"></a>
+
 </div>
+<div class="titlec">
+<h2> GIS Work Experience </h2>
+<ol>
+<li><h3>GIS Analsyst for Capstone Project</h3></li>
+<p>Fleming College - May 2023 to July 2023</p>
+<p> Worked in a Group of 3 for a client in the GIS field using everything learned throughout the year to provide them with a well-developed project to their specifications. The project included website and program development map making and report creation.</p>
+<li><h3>GIS Analsyst for Capstone Project</h3></li>
+<p>University of New Brunswick - September 2020 to April 2021 </p>
+<ul>
+<li><p> Worked in a group of 10 to create an urban forest and forest management plan for the Department of National Defense, the Town of Oromocto, and the Oromocto native reserve. </p></li>
+<li><p> My main role used programs such as: </p></li>
+<li><p> FORUS and Woodstock software for projecting each forest's growth into the future. </p></li>
+<li><p> ArcMap and ArcGIS Pro to display and map our findings. </p></li>
+<li><p> Fusion to properly use Lidar data and remote sensing techniques. </p></li>
+<li><p> All related Microsoft office programs to properly present our report and research.</p></li>
+</ul>
+</ol>
+</div>
+
+<!-- <div class="titleb">
+<button id ="other"> Other Work Experice </h2> 
+<ol>
+<li><h3>Maintenance Technician</h3></li>
+<p class = "date">Hockley Vally Resort and Golf course - January 2022 to September 2022</p>
+<li><h3>Maintenance Technician</h3></li>
+<p class = "date">Mayfield Golf Course - May 2022 to November 2022</p>
+<li><h3>Maintenance Technician</h3></li>
+<p class = "date">Limberlost Nature and Wildlife Reserve - May 2019 to September 2019</p>
+<li><h3>Resident Assistant</h3></li>
+<p class = "date">Fleming College Residence - August 2018 to April 2019</p>
+<li><h3>Basic Car Repair</h3></li>
+<p class = "date">Napa Autopro - May 2018 to September 2018</p>
+<li><h3>Landscaping</h3></li>
+<p class = "date">Private Property - May 2017 to September 2017</p>
+<li><h3>Sudent Placement</h3></li>
+<p class = "date">Island Lake Conservation Area - May 2016 to September 2016</p>
+<li><h3>Property Maintenance</h3></li>
+<p class = "date">Private Property - May 2014 to September 2016</p>
+</ol>
+</div> -->
+
 </body>
 <script>
   // Modal Image Gallery
@@ -66,5 +110,66 @@
   function nav_close() {
       mySidebar.style.display = "none";
   }
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+function openModel(id) {
+  console.log(id)
+  if(id == "GIS") {
+    document.getElementById("modal-text").innerHTML = "<h2> GIS Work Experience </h2>""
+<ol>""
+<li><h3>GIS Analsyst for Capstone Project</h3></li>""
+<p>Fleming College - May 2023 to July 2023</p>""
+<p> Worked in a Group of 3 for a client in the GIS field using everything learned throughout the year to provide them with a well-developed project to their specifications. The project included website and program development map making and report creation.</p>""
+<li><h3>GIS Analsyst for Capstone Project</h3></li>""
+<p>University of New Brunswick - September 2020 to April 2021 </p>""
+<ul>""
+<li><p> Worked in a group of 10 to create an urban forest and forest management plan for the Department of National Defense, the Town of Oromocto, and the Oromocto native reserve. </p></li>""
+<li><p> My main role used programs such as: </p></li>""
+<li><p> FORUS and Woodstock software for projecting each forest's growth into the future. </p></li>""
+<li><p> ArcMap and ArcGIS Pro to display and map our findings. </p></li>""
+<li><p> Fusion to properly use Lidar data and remote sensing techniques. </p></li>""
+<li><p> All related Microsoft office programs to properly present our report and research.</p></li>""
+</ul>""
+</ol>"
+  }
+  else if(id == "other") {
+    document.getElementById("modal-text").innerHTML = "<ol>""
+<li><h3>Maintenance Technician</h3></li>""
+<p>Hockley Vally Resort and Golf course - January 2022 to September 2022</p>""
+<li><h3>Maintenance Technician</h3></li>""
+<p>Mayfield Golf Course - May 2022 to November 2022</p>""
+<li><h3>Maintenance Technician</h3></li>""
+<p>Limberlost Nature and Wildlife Reserve - May 2019 to September 2019</p>""
+<li><h3>Resident Assistant</h3></li>""
+<p>Fleming College Residence - August 2018 to April 2019</p>""
+<li><h3>Basic Car Repair</h3></li>""
+<p>Napa Autopro - May 2018 to September 2018</p>""
+<li><h3>Landscaping</h3></li>""
+<p>Private Property - May 2017 to September 2017</p>""
+<li><h3>Sudent Placement</h3></li>""
+<p>Island Lake Conservation Area - May 2016 to September 2016</p>""
+<li><h3>Property Maintenance</h3></li>""
+<p>Private Property - May 2014 to September 2016</p>""
+</ol>"
+  }
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
   </script>
 </html>

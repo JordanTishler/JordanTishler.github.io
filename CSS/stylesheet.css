@@ -82,7 +82,7 @@ div.titlep {
   }
 
   div.titlea {
-    background-color: rgba(121, 252, 69, 0.76);
+    background-color: rgba(64, 175, 79, 0.76);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
@@ -100,7 +100,6 @@ div.titlep {
   background-color: rgb(179, 178, 178);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 100px;
   border-radius: 10px;
   max-width: 900px;
   max-height: 1000px;
@@ -111,21 +110,6 @@ div.titlep {
   padding-top: 10px;
   padding-bottom: 10px;
   }
-
-
-.titlec {
-  background-color: rgba(121, 252, 69, 0.76);
-  float: left;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 50px;
-  border-radius: 10px;
-  max-width: 900px;
-  max-height: 1000px;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 .w3-btn,
 .w3-button {
@@ -144,13 +128,30 @@ div.titlep {
 }
 .services-button {
   border-radius: 10px;
-  width: 300px;
+  clear:both;
+  float:left;
+  margin-top: 5px;
 }
 .services-button:hover {
   background-color: grey;
   color: white;
+  clear:both
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top:  100px;
+  margin-right: 90px;
 }
 
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .jt{
   float:left;

@@ -96,20 +96,22 @@ div.titlep {
     padding-top: 10px;
     padding-bottom: 10px;
     }
-.titleb {
-  background-color: rgba(121, 252, 69, 0.76);
-  float: right;
+.titled {
+  background-color: rgb(179, 178, 178);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -530px;
+  margin-top: 100px;
   border-radius: 10px;
-  width: 700px;
+  max-width: 900px;
   max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  clear: both;
-}
+  }
+
 
 .titlec {
   background-color: rgba(121, 252, 69, 0.76);

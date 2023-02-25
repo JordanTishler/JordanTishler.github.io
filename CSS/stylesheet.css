@@ -266,6 +266,7 @@ background-repeat: no-repeat;
 .caption-container {
   text-align: center;
   background-color: #222;
+  margin-top: -15px;
   padding: 2px 16px;
   color: white;
 }
@@ -279,7 +280,7 @@ background-repeat: no-repeat;
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 14.2%;
 }
 
 /* Add a transparency effect for thumnbail images */

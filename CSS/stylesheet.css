@@ -306,6 +306,7 @@ margin-top: 50px;
   width: 100%;
 }
 
+
 @media (max-width: 1200px) {
   .nav-auto {
     max-width: 95%;
@@ -529,4 +530,13 @@ margin-top: 50px;
   text-decoration-line: none;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link {
+  text-decoration-line: none;
+  color: white;
+}
+
+.link:hover {
+  color: blue;
 }

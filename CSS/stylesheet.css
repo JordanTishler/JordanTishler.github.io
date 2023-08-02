@@ -98,7 +98,7 @@ div.titlep {
     }
 .titled {
   background-color: rgb(179, 178, 178);
-  font-weight: bold;
+  font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
   max-width: 900px;
@@ -164,6 +164,7 @@ div.titlep {
   max-width: 470px;
   margin-top: -10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
 }
 .profile{
   float:inherit;

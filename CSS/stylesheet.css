@@ -541,3 +541,20 @@ margin-top: 50px;
 .link:hover {
   color: blue;
 }
+
+.links {
+  text-decoration-line: none;
+  color: #000;
+}
+
+.links:hover {
+  color: blue;
+}
+
+.linkl {
+  color: #000;
+}
+
+.linkl:hover {
+  color: blue;
+}

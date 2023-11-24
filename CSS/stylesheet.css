@@ -281,9 +281,13 @@ background-repeat: no-repeat;
 /* Six columns side by side */
 .column {
   float: left;
-  width: 14.2%;
+  width: 12.5%;
 }
 
+.column1 {
+  float: left;
+  width: 0.5px;
+}
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
@@ -314,7 +318,7 @@ margin-top: 50px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 815px) {
   .nav-modal-content {
     margin: 0 10px;
     width: auto !important;
@@ -364,7 +368,7 @@ margin-top: 50px;
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 815px) {
   .nav-modal-content {
     width: 900px;
   }
@@ -384,7 +388,7 @@ margin-top: 50px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .nav-sidebar.nav-collapse {
     display: none;
   }

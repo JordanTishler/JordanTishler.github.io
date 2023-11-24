@@ -11,27 +11,29 @@
 <body>
 <!-- Navbar (sit on top) -->
 <div class="nav-top">
-    <div class="nav-bar nav-white nav-card" id="myNavbar" >
-      <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
-      <!-- Right-sided navbar links -->
-      <div class="nav-right nav-hide-small">
-        <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
-        <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i> ABOUT</a>
-        <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-      </div>
-      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-  
-      <a href="javascript:void(0)" class="nav-bar-item nav-button nav-right nav-hide-large nav-hide-medium" onclick="nav_open()">
-        <i class="fa fa-bars"></i>
-      </a>
+  <div class="nav-bar nav-white" >
+    <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
+    <!-- Right-sided navbar links -->
+    <div class="right nav-hide-small">
+      <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i> ABOUT</a>
+      <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> SCHOOL PORTFOLIO</a>
+      <a href="workportfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> WORK PORTFOLIO</a>
     </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="nav-bar-item nav-button nav-right nav-hide-large nav-hide-medium" onclick="nav_open()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
+</div>
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="nav-top nav-sidebar nav-bar-block nav-black nav-card nav-animate-left nav-hide-medium nav-hide-large displaynone" id="mySidebar">
-  <a href="javascript:void(0)" onclick="nav_close()" class="nav-bar-item nav-button nav-large nav-padding-16 textfix">Close ×</a>
-  <a href="index.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">HOME</a>
-  <a href="about.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">ABOUT</a>
-  <a href="portfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">PORTFOLIO</a>
+<a href="javascript:void(0)" onclick="nav_close()" class="nav-bar-item nav-button nav-large nav-padding-16 textfix">Close ×</a>
+<a href="index.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">HOME</a>
+<a href="about.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">ABOUT</a>
+<a href="portfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">SCHOOL PORTFOLIO</a>
+<a href="workportfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">WORK PORTFOLIO</a>
 </nav>
 
 <div class="title display">

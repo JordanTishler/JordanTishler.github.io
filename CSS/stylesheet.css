@@ -286,7 +286,7 @@ background-repeat: no-repeat;
 
 .column1 {
   float: left;
-  width: 0.5px;
+  width: 50%;
 }
 /* Add a transparency effect for thumnbail images */
 .demo {
@@ -540,6 +540,14 @@ margin-top: 50px;
 .link {
   text-decoration-line: none;
   color: white;
+}
+
+.link2 {
+  color: white;
+}
+
+.link2:hover {
+  color: blue;
 }
 
 .link:hover {

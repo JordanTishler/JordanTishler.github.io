@@ -111,6 +111,21 @@ div.titlep {
   padding-bottom: 10px;
   }
 
+  .modal-content {
+    background-color: rgb(179, 178, 178);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    max-width: 900px;
+    max-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 .w3-btn,
 .w3-button {
   border: none;
@@ -138,17 +153,17 @@ div.titlep {
   clear:both
 }
 .close {
-  color: white;
+  color: black;
   float: right;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
-  margin-top:  50px;
-  margin-right: 27.5%;
+  margin-top:  1%;
+  margin-right: 5%;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color:rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
 }
@@ -516,6 +531,9 @@ margin-top: 50px;
   outline: 0;
   width: 600px;
 }
+
+
+
 .nav-bar-block .nav-bar-item {
   width: 100%;
   display: block;
@@ -564,7 +582,7 @@ margin-top: 50px;
 }
 
 .linkl {
-  color: #000;
+  color: black;
 }
 
 .linkl:hover {

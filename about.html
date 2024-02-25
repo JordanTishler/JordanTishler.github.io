@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class=".nav-bar .nav-button">
+<head class=".w3-bar .w3-button">
 <title>Jordan Tishler</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="CSS/stylesheet.css">
-<link href="Images/logo.png" rel="shortcut icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script  src="JS/java.js"></script>
+<link href="Images/logo.png" rel="shortcut icon">
 </head>
 <body>
 <!-- Navbar (sit on top) -->
 <div class="nav-top">
-  <div class="nav-bar nav-white" >
-    <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
-    <!-- Right-sided navbar links -->
-    <div class="right nav-hide-small">
-      <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
-      <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i> ABOUT</a>
-      <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> SCHOOL PORTFOLIO</a>
-      <a href="workportfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> WORK PORTFOLIO</a>
+    <div class="nav-bar nav-white" >
+      <a href="index.html" class="nav-bar-item nav-button nav-wide"><img src="Images/logo.png" alt="logo"> Jordan Tishler</a>
+      <!-- Right-sided navbar links -->
+      <div class="right nav-hide-small">
+        <a href="index.html" class="nav-bar-item nav-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="about.html" class="nav-bar-item nav-button"> <i class="fa fa-book"></i> ABOUT</a>
+        <a href="portfolio.html" class="nav-bar-item nav-button"><i class="fa fa-graduation-cap"></i> SCHOOL PORTFOLIO</a>
+        <a href="workportfolio.html" class="nav-bar-item nav-button"><i class="fa fa-th"></i> WORK PORTFOLIO</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="nav-bar-item nav-button nav-right nav-hide-large nav-hide-medium" onclick="nav_open()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="nav-bar-item nav-button nav-right nav-hide-large nav-hide-medium" onclick="nav_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-</div>
-<!-- Sidebar on small screens when clicking the menu icon -->
+  <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="nav-top nav-sidebar nav-bar-block nav-black nav-card nav-animate-left nav-hide-medium nav-hide-large displaynone" id="mySidebar">
-<a href="javascript:void(0)" onclick="nav_close()" class="nav-bar-item nav-button nav-large nav-padding-16 textfix">Close ×</a>
-<a href="index.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">HOME</a>
-<a href="about.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">ABOUT</a>
-<a href="portfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">SCHOOL PORTFOLIO</a>
-<a href="workportfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">WORK PORTFOLIO</a>
+  <a href="javascript:void(0)" onclick="nav_close()" class="nav-bar-item nav-button nav-large nav-padding-16 textfix">Close ×</a>
+  <a href="index.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">HOME</a>
+  <a href="about.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">ABOUT</a>
+  <a href="portfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">SCHOOL PORTFOLIO</a>
+  <a href="workportfolio.html" onclick="nav_close()" class="nav-bar-item nav-button textfix">WORK PORTFOLIO</a>
 </nav>
 
 <div class="titlea">

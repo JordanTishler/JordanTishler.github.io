@@ -271,6 +271,7 @@ background-repeat: no-repeat;
 
 /* Number text (1/3 etc) */
 .numbertext {
+  background-color: #00000091;
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;

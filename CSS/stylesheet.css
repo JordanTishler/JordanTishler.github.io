@@ -212,10 +212,25 @@ transition-duration: 100ms;
 
 h1 {color: rgb(28, 27, 68)}
 
-body{background-image: url("../Images/novascotia.jpg");
+.test75
+{background-image: url("../Images/novascotia.jpg");
 background-position: center;
 background-size: 2200px;
 background-repeat: no-repeat;
+}
+
+.test85
+{background-image: url("../Images/citys.jpg");
+background-position-y: 200px;  
+background-size: 100%;
+background-repeat: repeat;
+}
+
+.test78
+{background-image: url("../Images/contourmap.jpeg");
+background-position: center;
+background-size: 100%;
+background-repeat: repeat;
 }
 
 /* start of slideshow css source:https://www.navschools.com/howto/howto_js_slideshow_gallery.asp*/
